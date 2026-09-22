@@ -1,0 +1,11 @@
+[Plymouth Theme]
+Name=Apple
+Description=Mac-style boot splash: black background, centred Apple logo.
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/apple
+ScriptFile=/usr/share/plymouth/themes/apple/apple.script
+ConsoleLogBackgroundColor=0x000000
+MonospaceFont=Cantarell 11
+Font=Cantarell 11
